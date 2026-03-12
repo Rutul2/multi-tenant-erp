@@ -40,36 +40,36 @@ This project utilizes a **Logical Data Isolation** approach for multi-tenancy.
 * MongoDB instance (Local or Atlas) running
 
 ### 1. Clone the repository
-\`\`\`bash
+```bash
 git clone https://github.com/yourusername/multi-tenant-erp.git
 cd multi-tenant-erp
-\`\`\`
+```
 
 ### 2. Backend Setup
-\`\`\`bash
+```bash
 cd backend
 npm install
-\`\`\`
+```
 Create a `.env` file in the `backend` directory:
-\`\`\`env
+```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_super_secret_jwt_key
-\`\`\`
+```
 Start the backend server:
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 ### 3. Frontend Setup
 Open a new terminal window:
-\`\`\`bash
+```bash
 cd frontend
 npm install
-\`\`\`
+```
 Start the Vite development server:
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 The application will be running at `http://localhost:5173`.
